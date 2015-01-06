@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D874FB131A58D52C00F6FE5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D874FB121A58D52C00F6FE5F /* main.m */; };
+		D874FB211A58DE3300F6FE5F /* ConcreteObserverA.m in Sources */ = {isa = PBXBuildFile; fileRef = D874FB201A58DE3300F6FE5F /* ConcreteObserverA.m */; };
+		D874FB241A58E01100F6FE5F /* ConcreteObserverB.m in Sources */ = {isa = PBXBuildFile; fileRef = D874FB231A58E01100F6FE5F /* ConcreteObserverB.m */; };
+		D874FB271A58E12400F6FE5F /* Subject.m in Sources */ = {isa = PBXBuildFile; fileRef = D874FB261A58E12400F6FE5F /* Subject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,13 @@
 /* Begin PBXFileReference section */
 		D874FB0F1A58D52C00F6FE5F /* Observer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Observer; sourceTree = BUILT_PRODUCTS_DIR; };
 		D874FB121A58D52C00F6FE5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D874FB191A58D53C00F6FE5F /* Observer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
+		D874FB1F1A58DE3300F6FE5F /* ConcreteObserverA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserverA.h; sourceTree = "<group>"; };
+		D874FB201A58DE3300F6FE5F /* ConcreteObserverA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteObserverA.m; sourceTree = "<group>"; };
+		D874FB221A58E01100F6FE5F /* ConcreteObserverB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteObserverB.h; sourceTree = "<group>"; };
+		D874FB231A58E01100F6FE5F /* ConcreteObserverB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteObserverB.m; sourceTree = "<group>"; };
+		D874FB251A58E12400F6FE5F /* Subject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subject.h; sourceTree = "<group>"; };
+		D874FB261A58E12400F6FE5F /* Subject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,13 @@
 			isa = PBXGroup;
 			children = (
 				D874FB121A58D52C00F6FE5F /* main.m */,
+				D874FB191A58D53C00F6FE5F /* Observer.h */,
+				D874FB1F1A58DE3300F6FE5F /* ConcreteObserverA.h */,
+				D874FB201A58DE3300F6FE5F /* ConcreteObserverA.m */,
+				D874FB221A58E01100F6FE5F /* ConcreteObserverB.h */,
+				D874FB231A58E01100F6FE5F /* ConcreteObserverB.m */,
+				D874FB251A58E12400F6FE5F /* Subject.h */,
+				D874FB261A58E12400F6FE5F /* Subject.m */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -118,7 +135,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D874FB271A58E12400F6FE5F /* Subject.m in Sources */,
+				D874FB211A58DE3300F6FE5F /* ConcreteObserverA.m in Sources */,
 				D874FB131A58D52C00F6FE5F /* main.m in Sources */,
+				D874FB241A58E01100F6FE5F /* ConcreteObserverB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
