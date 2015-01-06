@@ -17,7 +17,7 @@ The Observer design pattern sample for Objective-C
 *  ConcreteObserverB.h  <br/> 
     具体观察者B，在实现在实现了观察协议方法。
     
-*  Subject.h  <br/> 
+*  Subject  <br/> 
     主题类  <br/> 
     被观察者监控，一旦状态发生变化通过观察者协议方法通知观察者对象，例如ConcreteObserverA、ConcreteObserverB
 
