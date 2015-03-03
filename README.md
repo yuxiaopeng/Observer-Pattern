@@ -27,3 +27,5 @@ The Observer design pattern sample for Objective-C
     
 结构如下图：  <br/>
     <img src='http://yuxiaopeng.com/images/2014/07/Observer_Pattern.png' />
+
+-------------------------------------------------------------------------
