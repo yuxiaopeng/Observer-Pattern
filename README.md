@@ -30,4 +30,3 @@ The Observer design pattern sample for Objective-C
 
 
 ================
-
